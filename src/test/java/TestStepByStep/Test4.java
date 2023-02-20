@@ -1,10 +1,8 @@
-package Gun01;
+package TestStepByStep;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import utils.App;
 import utils.Device;

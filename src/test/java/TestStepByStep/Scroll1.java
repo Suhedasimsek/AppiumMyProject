@@ -1,4 +1,4 @@
-package Gun01;
+package TestStepByStep;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -41,7 +41,7 @@ public class Scroll1 {
                 .usingAnyFreePort()
                 .build();
 
-        service.clearOutPutStreams();
+        service.clearOutPutStreams();// consoldaki ayrıntıları yazmasını engelliyor
         service.start();
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
